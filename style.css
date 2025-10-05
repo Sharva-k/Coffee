@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: 
+        url(./assets/green_bg.webp);
+    background-size: cover;
+    /* overflow: hidden; */
+}
+nav{
+    background-color: white;
+    display: flex;
+    
+}
+
+
+.hero{
+    display:flex;
+    height: 100vh;
+    max-width: 1000%;
+}
+
+.hero #cofbg{
+    position: absolute;
+    /* align-self: center; */
+    transform: translateY(-250px);
+    left: 25%;
+}
+
+.hero #splash{
+    position: relative;
+    left: 30%;
+    top:28% ;
+}
+
+.svg-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3000px;
+}
+
+svg{
+    height: 100%;
+}
