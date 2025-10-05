@@ -12,10 +12,29 @@ body{
     /* overflow: hidden; */
 }
 nav{
-    background-color: white;
     display: flex;
-    
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    color: white;
+    height: 60px;
 }
+
+nav #top_col{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 32px;
+    font-size: 1.3rem;
+}
+
+i:hover {
+    cursor: pointer;
+    transform: scale(1.1); /* Added subtle scale effect */
+    transition: transform 0.3s ease;
+}
+
 
 
 .hero{
